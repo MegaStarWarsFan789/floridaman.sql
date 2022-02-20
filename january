@@ -1,0 +1,68 @@
+CREATE TABLE calendar (id INTEGER PRIMARY KEY, month TEXT, date INTEGER, event TEXT);
+
+INSERT INTO calendar (month, date, event) VALUES("January", 1, "Florida man trapped in unlocked closet for two days.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 2, "Florida man is behind bars after robbing a store disguised as Spiderman.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 3, "Florida man attacked the McDonald’s employee because of a drinking straw ban.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 4, "Florida man suddenly hit his father’s face with a slice of pizza and started yelling at him and grabbing his arm.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 5, "Florida man puts dragon lizard in his mouth, smacks people with it.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 6, "Florida man breaks into house at night to suck on the man sleeping in the house's fingers and toes.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 7, "Florida man carrying homemade bomb in backpack resists arrest.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 8, "Florida man admitted in a Tampa court that he smuggled more than 20 aquatic lizards out of the Philippines.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 9, "Florida man accused of burning son to teach him lesson about fire.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 10, "Florida man allegedly fooled family into believing his dead wife was still alive.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 11, "Florida man chews up police car seat after arrest.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 12, "Florida man tried to steal the balls from a golf course and then attacked an old man playing golf.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 13, "Florida man wanted to set his own house on fire but instead set himself on fire.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 14, "Florida man threatened his neighbor with his machete named 'kindness'.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 15, "Florida man crashed into a vehicle, stole another man’s vehicle who was standing to help the accident.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 16, "Florida man intentionally drives ferrari 360 into the ocean at top speed because he thought the policeman was an Egyptian who didn't believe in Jesus.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 17, "Florida man who had a search warrant and needed arrest wanted to finish his work before he surrendered.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 18, "Florida man who confused Taco Bell with the Tampa bank was arrested.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 19, "Florida man wanted to have his brother dead and hired someone to do it for him, who turned out to be a detective for the poilice.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 20, "Florida man with mistaken identity arrested for 5 days.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 21, "Florida man and woman run over by patrol car while lying in road to watch eclipse.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 22, "Florida man wanted to prove his independence to his mother and showed this by trying to rob the gas station.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 23, "Florida man steals, crashes police cruiser, no clothes.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 24, "Florida man caught on camera licking doorbell");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 25, "Florida man arrested for aiming laser light at landing plane, temporarily blinding pilot.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 26, "Florida man finds a WWII grenade, places it in his truck, drives to Taco Bell for dinner.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 27, "Florida man wearing garbage bags torches garbage trucks, building.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 28, "Florida man arrested after tantrum over bacon.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 29, "Florida man arrested for attacking employee dressed as minion in front of store.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 30, "Florida man arrested for 'possesion of illegal substances.' It was, if fact, washing powder.");
+
+INSERT INTO calendar (month, date, event) VALUES("January", 31, "Florida man attempted to rob bank, digging 50 yard-long tunnel.");
+
+
+
+SELECT 
+month, date, event FROM calendar;
